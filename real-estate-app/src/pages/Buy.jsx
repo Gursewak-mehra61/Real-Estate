@@ -168,7 +168,7 @@ export default function Buy() {
       </div>
 
       {/* Featured Properties Section */}
-      <section className="w-[90%] max-w-7xl mx-auto px-4 py-12">
+      <section className="w-[90%] max-w-7xl mx-auto px-4 py-12 mb-20">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4 md:gap-0">
           <h2 className="text-3xl font-bold text-gray-900">Featured Property</h2>
           <button className="text-blue-700 font-medium border border-blue-700 rounded-full px-6 py-3 hover:bg-blue-700 hover:text-white transition-all duration-300 flex items-center gap-2">
