@@ -43,26 +43,27 @@ export default function NewsletterFooter() {
 
 
       {/* Footer */}
-      <div className="w-full py-6 px-4 flex flex-col sm:flex-row sm:items-center sm:justify-between text-white font-normal space-y-4 sm:space-y-0 relative">
-        {/* Left: Logo with gap */}
-        <div className="flex items-center gap-2 justify-center sm:justify-start">
-          <img src="/img/footer-logo.svg" alt="footer-logo" />
-          <span className="text-white font-bold text-xl">PropBot</span>
-        </div>
+      <div className="w-full py-6 px-6 sm:px-8 max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+    
+    {/* Left: Logo */}
+    <div className="flex items-center gap-2">
+      <img src="/img/footer-logo.svg" alt="footer-logo" className="w-6 h-6" />
+      <span className="font-bold text-xl">PropBot</span>
+    </div>
 
-        {/* Center: Links */}
-        <div className="flex justify-center items-center gap-7 flex-wrap">
-          <span className="cursor-pointer hover:underline">For Sale</span>
-          <span className="cursor-pointer hover:underline">Rentals</span>
-          <span className="cursor-pointer hover:underline">New Projects</span>
-          <span className="cursor-pointer hover:underline">Property News</span>
-        </div>
+    {/* Center: Links */}
+    <div className="flex justify-center items-center gap-6 flex-wrap text-sm">
+      <span className="cursor-pointer hover:underline">For Sale</span>
+      <span className="cursor-pointer hover:underline">Rentals</span>
+      <span className="cursor-pointer hover:underline">New Projects</span>
+      <span className="cursor-pointer hover:underline">Property News</span>
+    </div>
 
-        {/* Right: Copyright */}
-        <div className="text-center sm:text-right">
-          ©2025 Propbot. All rights reserved
-        </div>
-      </div>
+    {/* Right: Copyright */}
+    <div className="text-sm text-center sm:text-right">
+      ©2025 Propbot. All rights reserved
+    </div>
+  </div>
     </footer>
   );
 }
