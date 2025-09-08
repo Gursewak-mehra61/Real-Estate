@@ -42,7 +42,7 @@ export default function Hero() {
         <img
           src={heroImageUrl}
           alt="Dream Home"
-          className="w-full h-[400px] md:h-[527px] object-cover rounded-2xl"
+          className="w-full h-[400px] md:h-[527px] object-cover rounded-2xl object-[center_20%]"
         />
         <div className="absolute inset-0 bg-black bg-opacity-10 rounded-2xl" />
 

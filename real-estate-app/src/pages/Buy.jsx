@@ -74,10 +74,12 @@ export default function Buy() {
         <section className="relative w-full h-[320px] md:h-[420px] lg:h-[520px] rounded-3xl overflow-hidden">
           <div
             className="w-full h-full bg-cover bg-center relative"
-            style={{
-              backgroundImage: `url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1400&q=80')`,
-            }}
           >
+  <img
+    src="/img/hero-img2.jpg"
+    alt="Modern Home"
+    className="w-full h-full object-cover object-center"
+  />
             <div className="absolute inset-0 bg-black/40"></div>
             <div className="absolute bottom-0 left-0 w-full flex flex-col items-start px-6 md:px-12 pb-12 md:pb-20 z-10">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 text-white text-left">

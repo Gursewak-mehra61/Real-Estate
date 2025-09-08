@@ -196,7 +196,7 @@ export default function Login() {
 
         <section className="w-[90%] sm:w-full sm:max-w-full sm:px-6 p-6 mx-auto md:w-[65%] md:p-0 md:max-w-none md:mx-0 flex items-center justify-center">
           <img
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
+            src="/img/signup-img.jpg"
             alt="Modern house"
             className="object-cover w-full h-full rounded-[34px]"
           />
